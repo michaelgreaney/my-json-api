@@ -1,0 +1,262 @@
+{
+  "users": [
+    {
+      "userId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "username": "jane_doe",
+      "email": "jane.doe@example.com",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "dateCreated": "2023-01-15T09:30:00Z",
+      "lastLogin": "2025-08-11T14:22:10Z",
+      "isActive": true,
+      "roles": [
+        "admin",
+        "editor"
+      ],
+      "profile": {
+        "bio": "A software developer from Dublin with a passion for open-source projects and hiking.",
+        "profilePictureUrl": "https://i.pravatar.cc/150?u=a1b2c3d4",
+        "location": {
+          "city": "Dublin",
+          "country": "Ireland"
+        }
+      },
+      "orderIds": [
+        "ORD1984",
+        "ORD5542"
+      ]
+    },
+    {
+      "userId": "f0e9d8c7-b6a5-4321-fedc-ba9876543210",
+      "username": "john_smith",
+      "email": "j.smith@example.org",
+      "firstName": "John",
+      "lastName": "Smith",
+      "dateCreated": "2023-03-22T18:45:12Z",
+      "lastLogin": "2025-08-05T11:59:34Z",
+      "isActive": true,
+      "roles": [
+        "user"
+      ],
+      "profile": {
+        "bio": "Photographer and artist. Exploring the world through my lens.",
+        "profilePictureUrl": "https://i.pravatar.cc/150?u=f0e9d8c7",
+        "location": {
+          "city": "Cork",
+          "country": "Ireland"
+        }
+      },
+      "orderIds": [
+        "ORD8211"
+      ]
+    },
+    {
+      "userId": "12345678-90ab-cdef-0123-456789abcdef",
+      "username": "siobhan_m",
+      "email": "siobhan.murphy@email.ie",
+      "firstName": "Siobhán",
+      "lastName": "Murphy",
+      "dateCreated": "2024-02-10T12:00:00Z",
+      "lastLogin": "2025-07-21T08:15:55Z",
+      "isActive": false,
+      "roles": [
+        "user"
+      ],
+      "profile": {
+        "bio": null,
+        "profilePictureUrl": null,
+        "location": {
+          "city": "Galway",
+          "country": "Ireland"
+        }
+      },
+      "orderIds": [
+        "ORD3039",
+        "ORD4158",
+        "ORD9901"
+      ]
+    },
+    {
+      "userId": "fedcba98-7654-3210-fedc-ba9876543210",
+      "username": "p_chen",
+      "email": "peter.chen@example.com",
+      "firstName": "Peter",
+      "lastName": "Chen",
+      "dateCreated": "2024-07-30T21:17:40Z",
+      "lastLogin": "2024-07-30T21:17:40Z",
+      "isActive": true,
+      "roles": [
+        "user",
+        "beta_tester"
+      ],
+      "profile": {
+        "bio": "Student at Trinity College Dublin. Interested in AI and machine learning.",
+        "profilePictureUrl": "https://i.pravatar.cc/150?u=fedcba98",
+        "location": {
+          "city": "Dublin",
+          "country": "Ireland"
+        }
+      },
+      "orderIds": [
+        "ORD7726"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "ORD1984",
+      "userId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "orderDate": "2025-06-20T11:05:30Z",
+      "orderStatus": "Delivered",
+      "trackingNumber": "TBA987654321IE",
+      "items": [
+        {
+          "productId": "PROD-101",
+          "productName": "Laptop Stand",
+          "quantity": 1,
+          "price": 45.99
+        },
+        {
+          "productId": "PROD-205",
+          "productName": "Wireless Mouse",
+          "quantity": 1,
+          "price": 25.50
+        }
+      ],
+      "shippingAddress": {
+        "street": "123 Tech Avenue",
+        "city": "Dublin",
+        "country": "Ireland"
+      }
+    },
+    {
+      "orderId": "ORD5542",
+      "userId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "orderDate": "2025-08-10T16:20:00Z",
+      "orderStatus": "Shipped",
+      "trackingNumber": "TBA112233445IE",
+      "items": [
+        {
+          "productId": "PROD-310",
+          "productName": "Mechanical Keyboard",
+          "quantity": 1,
+          "price": 120.00
+        }
+      ],
+      "shippingAddress": {
+        "street": "123 Tech Avenue",
+        "city": "Dublin",
+        "country": "Ireland"
+      }
+    },
+    {
+      "orderId": "ORD8211",
+      "userId": "f0e9d8c7-b6a5-4321-fedc-ba9876543210",
+      "orderDate": "2025-08-01T09:00:15Z",
+      "orderStatus": "In Transit",
+      "trackingNumber": "TBA667788990IE",
+      "items": [
+        {
+          "productId": "PROD-415",
+          "productName": "Camera Lens 50mm",
+          "quantity": 1,
+          "price": 250.00
+        }
+      ],
+      "shippingAddress": {
+        "street": "45 Photo Lane",
+        "city": "Cork",
+        "country": "Ireland"
+      }
+    },
+    {
+      "orderId": "ORD3039",
+      "userId": "12345678-90ab-cdef-0123-456789abcdef",
+      "orderDate": "2025-04-15T14:30:00Z",
+      "orderStatus": "Delivered",
+      "trackingNumber": "TBA246813579IE",
+      "items": [
+        {
+          "productId": "PROD-502",
+          "productName": "Sketchbook (A4)",
+          "quantity": 2,
+          "price": 12.99
+        }
+      ],
+      "shippingAddress": {
+        "street": "78 Art Block",
+        "city": "Galway",
+        "country": "Ireland"
+      }
+    },
+    {
+      "orderId": "ORD4158",
+      "userId": "12345678-90ab-cdef-0123-456789abcdef",
+      "orderDate": "2025-07-29T10:10:10Z",
+      "orderStatus": "Exception",
+      "trackingNumber": "TBA135792468IE",
+      "statusDetails": "Delivery attempt failed. Address inaccessible.",
+      "items": [
+        {
+          "productId": "PROD-601",
+          "productName": "Watercolour Paint Set",
+          "quantity": 1,
+          "price": 35.75
+        }
+      ],
+      "shippingAddress": {
+        "street": "78 Art Block",
+        "city": "Galway",
+        "country": "Ireland"
+      }
+    },
+    {
+      "orderId": "ORD9901",
+      "userId": "12345678-90ab-cdef-0123-456789abcdef",
+      "orderDate": "2025-08-12T09:45:00Z",
+      "orderStatus": "Processed",
+      "trackingNumber": null,
+      "items": [
+        {
+          "productId": "PROD-505",
+          "productName": "Artist Brushes (Set of 12)",
+          "quantity": 1,
+          "price": 22.00
+        }
+      ],
+      "shippingAddress": {
+        "street": "78 Art Block",
+        "city": "Galway",
+        "country": "Ireland"
+      }
+    },
+    {
+      "orderId": "ORD7726",
+      "userId": "fedcba98-7654-3210-fedc-ba9876543210",
+      "orderDate": "2025-08-05T13:00:00Z",
+      "orderStatus": "In Transit",
+      "trackingNumber": "TBA555444333IE",
+      "items": [
+        {
+          "productId": "PROD-720",
+          "productName": "Advanced AI Textbook",
+          "quantity": 1,
+          "price": 89.95
+        }
+      ],
+      "shippingAddress": {
+        "street": "90 College Green",
+        "city": "Dublin",
+        "country": "Ireland"
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.1",
+    "recordCount": {
+      "users": 4,
+      "orders": 7
+    },
+    "generatedAt": "2025-08-12T16:01:25+01:00"
+  }
+}
