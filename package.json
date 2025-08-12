@@ -1,7 +1,11 @@
 {
-  "name": "my-api-project",
+  "name": "render-api-server",
   "version": "1.0.0",
+  "description": "Simple JSON server for Render",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "json-server": "^1.0.0-beta.1"
   }
